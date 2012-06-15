@@ -32,7 +32,7 @@ if FOAM_VERSION( "==", "010600" ):
 
     
 #--------------------------------------------------------------------------------------
-if FOAM_VERSION( ">=", "010700" ):
+if FOAM_VERSION( "==", "010700" ) or FOAM_VERSION( "==", "010701" ):
     from boundaryFlux.r1_7_0 import *
     pass
      
